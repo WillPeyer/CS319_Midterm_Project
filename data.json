@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "name": "Spaghetti Carbonara",
+    "ingredients": [
+      "400g spaghetti",
+      "200g pancetta",
+      "4 large eggs",
+      "100g Parmesan cheese",
+      "Black pepper"
+    ],
+    "instructions": [
+      "Cook spaghetti in salted water.",
+      "Fry pancetta until crispy.",
+      "Beat eggs with grated Parmesan.",
+      "Mix hot pasta with pancetta, then add egg mixture.",
+      "Serve with extra Parmesan and black pepper."
+    ],
+    "image": ""
+  },
+  {
+    "id": 2,
+    "name": "Chicken Stir Fry",
+    "ingredients": [
+      "500g chicken breast",
+      "Mixed vegetables",
+      "3 tbsp soy sauce",
+      "2 tbsp oil",
+      "1 tsp ginger, minced"
+    ],
+    "instructions": [
+      "Cut chicken into bite-sized pieces.",
+      "Heat oil in a wok or large frying pan.",
+      "Stir-fry chicken until golden.",
+      "Add vegetables and stir-fry for 2-3 minutes.",
+      "Add soy sauce and ginger, cook for another minute.",
+      "Serve hot with rice or noodles."
+    ],
+    "image": ""
+  }
+]
