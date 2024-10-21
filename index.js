@@ -201,7 +201,7 @@ function addRecipe(event) {
 
 // Event listeners for when the DOM content is loaded
 document.addEventListener('DOMContentLoaded', () => {
-    if (window.location.pathname.includes('index.html') || window.location.pathname === '/') {
+    if (window.location.pathname.includes('index.html') || window.location.pathname === '/' || window.location.pathname.endsWith('/')) {
         fetchAllRecipes();
     } else if (window.location.pathname.includes('my-recipes.html')) {
         fetchMyRecipes();
