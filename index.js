@@ -80,6 +80,13 @@ function displayRecipes(recipesToDisplay, gridId) {
  * @param {string} recipeId - ID of the recipe to save
  */
 function saveRecipeToMyRecipes(recipeId) {
+
+    //fetch existing recipes first. otherwise it deletes all of them. so stupid
+    const storedRecipes = localStorage.getItem('myRecipes');
+    if (storedRecipes) {
+        myRecipes = JSON.parse(storedRecipes);
+    }
+    
     const recipe = allRecipes.find(r => r.id === parseInt(recipeId));
     if (recipe && !myRecipes.some(r => r.id === recipe.id)) {
         myRecipes.push(recipe);
@@ -175,18 +182,26 @@ function searchRecipes() {
  * @param {Event} event - The form submission event
  */
 function addRecipe(event) {
+    console.log(myRecipes)
     event.preventDefault();
     const form = event.target;
     const newRecipe = {
-        id: Date.now(), // Use timestamp as a unique ID
+        id: Date.now(), //use timestamp as a unique ID
         name: form['recipe-name'].value,
         ingredients: form.ingredients.value.split('\n'),
         instructions: form.instructions.value.split('\n'),
         image: form['recipe-image'].value || "/api/placeholder/250/200"
     };
+
+    //fetch existing recipes first. otherwise it deletes all of them. so stupid
+    const storedRecipes = localStorage.getItem('myRecipes');
+    if (storedRecipes) {
+        myRecipes = JSON.parse(storedRecipes);
+    }
+    
     myRecipes.push(newRecipe);
     localStorage.setItem('myRecipes', JSON.stringify(myRecipes));
-
+    
     const alertPlaceholder = document.getElementById('alert-placeholder');
     const wrapper = document.createElement('div');
     wrapper.innerHTML = `
