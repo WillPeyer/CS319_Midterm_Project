@@ -36,6 +36,98 @@
       "Add soy sauce and ginger, cook for another minute.",
       "Serve hot with rice or noodles."
     ],
-    "image": ""
+    "image": "https://i.imgur.com/tcE6IrZ.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "Vegetarian Lasagna",
+    "ingredients": [
+      "Lasagna noodles",
+      "2 cups ricotta cheese",
+      "2 cups marinara sauce",
+      "2 cups mixed vegetables (zucchini, spinach, mushrooms)",
+      "1 cup mozzarella cheese",
+      "1/2 cup Parmesan cheese"
+    ],
+    "instructions": [
+      "Preheat oven to 375°F (190°C).",
+      "Cook lasagna noodles according to package instructions.",
+      "Sauté mixed vegetables until tender.",
+      "Layer noodles, ricotta, vegetables, marinara, and cheeses in a baking dish.",
+      "Repeat layers, ending with cheese on top.",
+      "Bake for 25-30 minutes until cheese is bubbly and golden.",
+      "Let cool for 10 minutes before serving."
+    ],
+    "image": "https://i.imgur.com/iTkttCq.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "Greek Salad",
+    "ingredients": [
+      "2 large tomatoes, diced",
+      "1 cucumber, sliced",
+      "1 red onion, thinly sliced",
+      "1 cup Kalamata olives",
+      "200g feta cheese, cubed",
+      "2 tbsp extra virgin olive oil",
+      "1 tbsp red wine vinegar",
+      "1 tsp dried oregano"
+    ],
+    "instructions": [
+      "In a large bowl, combine tomatoes, cucumber, and red onion.",
+      "Add Kalamata olives and feta cheese.",
+      "In a small bowl, whisk together olive oil, red wine vinegar, and oregano.",
+      "Pour dressing over the salad and toss gently to combine.",
+      "Serve immediately or chill for 30 minutes to let flavors meld."
+    ],
+    "image": "https://i.imgur.com/xAiy2Fc.jpeg"
+  },
+  {
+    "id": 5,
+    "name": "Beef Tacos",
+    "ingredients": [
+      "500g ground beef",
+      "1 packet taco seasoning",
+      "8 taco shells",
+      "Lettuce, shredded",
+      "Tomatoes, diced",
+      "Cheddar cheese, shredded",
+      "Sour cream",
+      "Salsa"
+    ],
+    "instructions": [
+      "Brown ground beef in a large skillet over medium-high heat.",
+      "Drain excess fat and add taco seasoning according to package instructions.",
+      "Warm taco shells in the oven.",
+      "Fill each shell with seasoned beef.",
+      "Top with lettuce, tomatoes, cheese, sour cream, and salsa.",
+      "Serve immediately."
+    ],
+    "image": "https://i.imgur.com/XlI9Jc2.jpeg"
+  },
+  {
+    "id": 6,
+    "name": "Chocolate Chip Cookies",
+    "ingredients": [
+      "2 1/4 cups all-purpose flour",
+      "1 tsp baking soda",
+      "1 cup unsalted butter, softened",
+      "3/4 cup granulated sugar",
+      "3/4 cup brown sugar",
+      "2 large eggs",
+      "2 tsp vanilla extract",
+      "2 cups semi-sweet chocolate chips"
+    ],
+    "instructions": [
+      "Preheat oven to 375°F (190°C).",
+      "In a bowl, mix flour and baking soda.",
+      "In another bowl, cream together butter, granulated sugar, and brown sugar.",
+      "Beat in eggs and vanilla to the butter mixture.",
+      "Gradually stir in flour mixture, then fold in chocolate chips.",
+      "Drop spoonfuls of dough onto ungreased baking sheets.",
+      "Bake for 9 to 11 minutes or until golden brown.",
+      "Let cool on baking sheet for 2 minutes, then transfer to a wire rack."
+    ],
+    "image": "https://i.imgur.com/qwMraZY.jpeg"
   }
 ]
